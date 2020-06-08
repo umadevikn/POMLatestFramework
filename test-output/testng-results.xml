@@ -1,0 +1,1219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="2" ignored="0" total="27" passed="24">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="275429" started-at="2020-06-05T16:51:02Z" finished-at="2020-06-05T16:55:38Z">
+    <groups>
+    </groups>
+    <test name="Chrome Test" duration-ms="137905" started-at="2020-06-05T16:51:02Z" finished-at="2020-06-05T16:53:20Z">
+      <class name="com.qa.rediff.testcases.RediffHomePageTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.qa.rediff.testcases.RediffHomePageTest@2a4fb17b]" name="setUp" is-config="true" duration-ms="8629" started-at="2020-06-05T22:21:02Z" finished-at="2020-06-05T22:21:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.rediff.com/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@5c60c08]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkHomeLogoTest()[pri:0, instance:com.qa.rediff.testcases.RediffHomePageTest@2a4fb17b]" name="checkHomeLogoTest" duration-ms="323" started-at="2020-06-05T22:21:11Z" description="Validating the Home page logo" finished-at="2020-06-05T22:21:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkHomeLogoTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.rediff.testcases.RediffHomePageTest@2a4fb17b]" name="tearDown" is-config="true" duration-ms="753" started-at="2020-06-05T22:21:11Z" finished-at="2020-06-05T22:21:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.qa.rediff.testcases.RediffHomePageTest@2a4fb17b]" name="setUp" is-config="true" duration-ms="7067" started-at="2020-06-05T22:22:28Z" finished-at="2020-06-05T22:22:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.rediff.com/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@5c60c08]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="getTitleTest()[pri:1, instance:com.qa.rediff.testcases.RediffHomePageTest@2a4fb17b]" name="getTitleTest" duration-ms="18" started-at="2020-06-05T22:22:35Z" description="Validate the page title" finished-at="2020-06-05T22:22:35Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Google] but found [Rediff.com: News | Rediffmail | Stock Quotes | Shopping]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Google] but found [Rediff.com: News | Rediffmail | Stock Quotes | Shopping]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:189)
+	at org.testng.Assert.assertEquals(Assert.java:199)
+	at com.qa.rediff.testcases.RediffHomePageTest.getTitleTest(RediffHomePageTest.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.rediff.testcases.RediffHomePageTest@2a4fb17b]" name="tearDown" is-config="true" duration-ms="763" started-at="2020-06-05T22:22:35Z" finished-at="2020-06-05T22:22:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.qa.rediff.testcases.RediffHomePageTest@2a4fb17b]" name="setUp" is-config="true" duration-ms="6942" started-at="2020-06-05T22:22:36Z" finished-at="2020-06-05T22:22:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.rediff.com/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@5c60c08]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="getTitleTest()[pri:1, instance:com.qa.rediff.testcases.RediffHomePageTest@2a4fb17b]" name="getTitleTest" duration-ms="34" started-at="2020-06-05T22:22:43Z" description="Validate the page title" finished-at="2020-06-05T22:22:43Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Google] but found [Rediff.com: News | Rediffmail | Stock Quotes | Shopping]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Google] but found [Rediff.com: News | Rediffmail | Stock Quotes | Shopping]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:189)
+	at org.testng.Assert.assertEquals(Assert.java:199)
+	at com.qa.rediff.testcases.RediffHomePageTest.getTitleTest(RediffHomePageTest.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:1014)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1215)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.rediff.testcases.RediffHomePageTest@2a4fb17b]" name="tearDown" is-config="true" duration-ms="770" started-at="2020-06-05T22:22:45Z" finished-at="2020-06-05T22:22:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.qa.rediff.testcases.RediffHomePageTest@2a4fb17b]" name="setUp" is-config="true" duration-ms="6724" started-at="2020-06-05T22:22:46Z" finished-at="2020-06-05T22:22:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.rediff.com/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@5c60c08]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkSignInLinkTest()[pri:2, instance:com.qa.rediff.testcases.RediffHomePageTest@2a4fb17b]" name="checkSignInLinkTest" duration-ms="81" started-at="2020-06-05T22:22:53Z" description="Validate the availability of Sign In link" finished-at="2020-06-05T22:22:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSignInLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.rediff.testcases.RediffHomePageTest@2a4fb17b]" name="tearDown" is-config="true" duration-ms="732" started-at="2020-06-05T22:22:53Z" finished-at="2020-06-05T22:22:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.qa.rediff.testcases.RediffHomePageTest@2a4fb17b]" name="setUp" is-config="true" duration-ms="6822" started-at="2020-06-05T22:22:54Z" finished-at="2020-06-05T22:23:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.rediff.com/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@5c60c08]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkCreateAccountLinkTest()[pri:3, instance:com.qa.rediff.testcases.RediffHomePageTest@2a4fb17b]" name="checkCreateAccountLinkTest" duration-ms="227" started-at="2020-06-05T22:23:00Z" description="Validate the availability of Create Account link" finished-at="2020-06-05T22:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCreateAccountLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.rediff.testcases.RediffHomePageTest@2a4fb17b]" name="tearDown" is-config="true" duration-ms="729" started-at="2020-06-05T22:23:01Z" finished-at="2020-06-05T22:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.qa.rediff.testcases.RediffHomePageTest@2a4fb17b]" name="setUp" is-config="true" duration-ms="7187" started-at="2020-06-05T22:23:01Z" finished-at="2020-06-05T22:23:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.rediff.com/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@5c60c08]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="navigateToSignInPageTest()[pri:4, instance:com.qa.rediff.testcases.RediffHomePageTest@2a4fb17b]" name="navigateToSignInPageTest" duration-ms="970" started-at="2020-06-05T22:23:09Z" description="Verify the navigation to Sign In page" finished-at="2020-06-05T22:23:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToSignInPageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.rediff.testcases.RediffHomePageTest@2a4fb17b]" name="tearDown" is-config="true" duration-ms="735" started-at="2020-06-05T22:23:10Z" finished-at="2020-06-05T22:23:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.qa.rediff.testcases.RediffHomePageTest@2a4fb17b]" name="setUp" is-config="true" duration-ms="6795" started-at="2020-06-05T22:23:10Z" finished-at="2020-06-05T22:23:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.rediff.com/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@5c60c08]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="navigateToCreateAccountPageTest()[pri:5, instance:com.qa.rediff.testcases.RediffHomePageTest@2a4fb17b]" name="navigateToCreateAccountPageTest" duration-ms="2327" started-at="2020-06-05T22:23:17Z" description="Verify the navigation to Create Account page" finished-at="2020-06-05T22:23:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToCreateAccountPageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.rediff.testcases.RediffHomePageTest@2a4fb17b]" name="tearDown" is-config="true" duration-ms="752" started-at="2020-06-05T22:23:19Z" finished-at="2020-06-05T22:23:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.rediff.testcases.RediffHomePageTest -->
+      <class name="com.qa.rediff.testcases.SignInPageTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.qa.rediff.testcases.SignInPageTest@6f1de4c7]" name="setUp" is-config="true" duration-ms="6855" started-at="2020-06-05T22:21:56Z" finished-at="2020-06-05T22:22:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.rediff.com/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@5c60c08]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="signInTest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.rediff.testcases.SignInPageTest@6f1de4c7]" name="signInTest" duration-ms="3105" started-at="2020-06-05T22:22:03Z" data-provider="dp" finished-at="2020-06-05T22:22:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[uma]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signInTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.rediff.testcases.SignInPageTest@6f1de4c7]" name="tearDown" is-config="true" duration-ms="735" started-at="2020-06-05T22:22:06Z" finished-at="2020-06-05T22:22:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.qa.rediff.testcases.SignInPageTest@6f1de4c7]" name="setUp" is-config="true" duration-ms="6812" started-at="2020-06-05T22:22:07Z" finished-at="2020-06-05T22:22:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.rediff.com/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@5c60c08]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="signInTest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.rediff.testcases.SignInPageTest@6f1de4c7]" name="signInTest" duration-ms="3895" started-at="2020-06-05T22:22:14Z" data-provider="dp" finished-at="2020-06-05T22:22:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hari]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signInTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.rediff.testcases.SignInPageTest@6f1de4c7]" name="tearDown" is-config="true" duration-ms="1183" started-at="2020-06-05T22:22:18Z" finished-at="2020-06-05T22:22:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.qa.rediff.testcases.SignInPageTest@6f1de4c7]" name="setUp" is-config="true" duration-ms="6859" started-at="2020-06-05T22:22:19Z" finished-at="2020-06-05T22:22:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.rediff.com/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@5c60c08]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="signInTest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.rediff.testcases.SignInPageTest@6f1de4c7]" name="signInTest" duration-ms="1649" started-at="2020-06-05T22:22:26Z" data-provider="dp" finished-at="2020-06-05T22:22:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nila]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signInTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.rediff.testcases.SignInPageTest@6f1de4c7]" name="tearDown" is-config="true" duration-ms="814" started-at="2020-06-05T22:22:27Z" finished-at="2020-06-05T22:22:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.rediff.testcases.SignInPageTest -->
+      <class name="com.qa.rediff.testcases.CreateAccountPageTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.qa.rediff.testcases.CreateAccountPageTest@5c6648b0]" name="setUp" is-config="true" duration-ms="6972" started-at="2020-06-05T22:21:13Z" finished-at="2020-06-05T22:21:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.rediff.com/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@5c60c08]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createAccountTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.rediff.testcases.CreateAccountPageTest@5c6648b0]" name="createAccountTest" duration-ms="3036" started-at="2020-06-05T22:21:20Z" data-provider="dp" finished-at="2020-06-05T22:21:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[umadevi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test@123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test@123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[test1@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccountTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.rediff.testcases.CreateAccountPageTest@5c6648b0]" name="tearDown" is-config="true" duration-ms="708" started-at="2020-06-05T22:21:23Z" finished-at="2020-06-05T22:21:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.qa.rediff.testcases.CreateAccountPageTest@5c6648b0]" name="setUp" is-config="true" duration-ms="6958" started-at="2020-06-05T22:21:24Z" finished-at="2020-06-05T22:21:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.rediff.com/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@5c60c08]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createAccountTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.rediff.testcases.CreateAccountPageTest@5c6648b0]" name="createAccountTest" duration-ms="3160" started-at="2020-06-05T22:21:31Z" data-provider="dp" finished-at="2020-06-05T22:21:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Aravind]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test12]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test@123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test@123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[test1@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccountTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.rediff.testcases.CreateAccountPageTest@5c6648b0]" name="tearDown" is-config="true" duration-ms="919" started-at="2020-06-05T22:21:34Z" finished-at="2020-06-05T22:21:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.qa.rediff.testcases.CreateAccountPageTest@5c6648b0]" name="setUp" is-config="true" duration-ms="6903" started-at="2020-06-05T22:21:35Z" finished-at="2020-06-05T22:21:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.rediff.com/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@5c60c08]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createAccountTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.rediff.testcases.CreateAccountPageTest@5c6648b0]" name="createAccountTest" duration-ms="3196" started-at="2020-06-05T22:21:42Z" data-provider="dp" finished-at="2020-06-05T22:21:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nila]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test@123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test@123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[test1@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccountTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.rediff.testcases.CreateAccountPageTest@5c6648b0]" name="tearDown" is-config="true" duration-ms="843" started-at="2020-06-05T22:21:45Z" finished-at="2020-06-05T22:21:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.qa.rediff.testcases.CreateAccountPageTest@5c6648b0]" name="setUp" is-config="true" duration-ms="6931" started-at="2020-06-05T22:21:46Z" finished-at="2020-06-05T22:21:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.rediff.com/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@5c60c08]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createAccountTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.rediff.testcases.CreateAccountPageTest@5c6648b0]" name="createAccountTest" duration-ms="2731" started-at="2020-06-05T22:21:53Z" data-provider="dp" finished-at="2020-06-05T22:21:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hari]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test1234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test@123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test@123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[test1@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccountTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.rediff.testcases.CreateAccountPageTest@5c6648b0]" name="tearDown" is-config="true" duration-ms="746" started-at="2020-06-05T22:21:56Z" finished-at="2020-06-05T22:21:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.rediff.testcases.CreateAccountPageTest -->
+    </test> <!-- Chrome Test -->
+    <test name="FireFox Test" duration-ms="136801" started-at="2020-06-05T16:53:21Z" finished-at="2020-06-05T16:55:38Z">
+      <class name="com.qa.rediff.testcases.RediffHomePageTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.qa.rediff.testcases.RediffHomePageTest@3590fc5b]" name="setUp" is-config="true" duration-ms="8589" started-at="2020-06-05T22:23:21Z" finished-at="2020-06-05T22:23:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.rediff.com/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@1cb44a2f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkHomeLogoTest()[pri:0, instance:com.qa.rediff.testcases.RediffHomePageTest@3590fc5b]" name="checkHomeLogoTest" duration-ms="71" started-at="2020-06-05T22:23:30Z" description="Validating the Home page logo" finished-at="2020-06-05T22:23:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkHomeLogoTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.rediff.testcases.RediffHomePageTest@3590fc5b]" name="tearDown" is-config="true" duration-ms="1897" started-at="2020-06-05T22:23:30Z" finished-at="2020-06-05T22:23:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.qa.rediff.testcases.RediffHomePageTest@3590fc5b]" name="setUp" is-config="true" duration-ms="7116" started-at="2020-06-05T22:24:48Z" finished-at="2020-06-05T22:24:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.rediff.com/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@1cb44a2f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="getTitleTest()[pri:1, instance:com.qa.rediff.testcases.RediffHomePageTest@3590fc5b]" name="getTitleTest" duration-ms="7" started-at="2020-06-05T22:24:55Z" description="Validate the page title" finished-at="2020-06-05T22:24:55Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Google] but found [Rediff.com: News | Rediffmail | Stock Quotes | Shopping]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Google] but found [Rediff.com: News | Rediffmail | Stock Quotes | Shopping]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:189)
+	at org.testng.Assert.assertEquals(Assert.java:199)
+	at com.qa.rediff.testcases.RediffHomePageTest.getTitleTest(RediffHomePageTest.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.rediff.testcases.RediffHomePageTest@3590fc5b]" name="tearDown" is-config="true" duration-ms="2014" started-at="2020-06-05T22:24:56Z" finished-at="2020-06-05T22:24:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.qa.rediff.testcases.RediffHomePageTest@3590fc5b]" name="setUp" is-config="true" duration-ms="7734" started-at="2020-06-05T22:24:58Z" finished-at="2020-06-05T22:25:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.rediff.com/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@1cb44a2f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkSignInLinkTest()[pri:2, instance:com.qa.rediff.testcases.RediffHomePageTest@3590fc5b]" name="checkSignInLinkTest" duration-ms="203" started-at="2020-06-05T22:25:06Z" description="Validate the availability of Sign In link" finished-at="2020-06-05T22:25:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSignInLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.rediff.testcases.RediffHomePageTest@3590fc5b]" name="tearDown" is-config="true" duration-ms="2104" started-at="2020-06-05T22:25:06Z" finished-at="2020-06-05T22:25:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.qa.rediff.testcases.RediffHomePageTest@3590fc5b]" name="setUp" is-config="true" duration-ms="7139" started-at="2020-06-05T22:25:08Z" finished-at="2020-06-05T22:25:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.rediff.com/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@1cb44a2f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkCreateAccountLinkTest()[pri:3, instance:com.qa.rediff.testcases.RediffHomePageTest@3590fc5b]" name="checkCreateAccountLinkTest" duration-ms="228" started-at="2020-06-05T22:25:15Z" description="Validate the availability of Create Account link" finished-at="2020-06-05T22:25:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCreateAccountLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.rediff.testcases.RediffHomePageTest@3590fc5b]" name="tearDown" is-config="true" duration-ms="1922" started-at="2020-06-05T22:25:15Z" finished-at="2020-06-05T22:25:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.qa.rediff.testcases.RediffHomePageTest@3590fc5b]" name="setUp" is-config="true" duration-ms="7682" started-at="2020-06-05T22:25:17Z" finished-at="2020-06-05T22:25:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.rediff.com/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@1cb44a2f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="navigateToSignInPageTest()[pri:4, instance:com.qa.rediff.testcases.RediffHomePageTest@3590fc5b]" name="navigateToSignInPageTest" duration-ms="549" started-at="2020-06-05T22:25:25Z" description="Verify the navigation to Sign In page" finished-at="2020-06-05T22:25:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToSignInPageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.rediff.testcases.RediffHomePageTest@3590fc5b]" name="tearDown" is-config="true" duration-ms="2093" started-at="2020-06-05T22:25:26Z" finished-at="2020-06-05T22:25:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.qa.rediff.testcases.RediffHomePageTest@3590fc5b]" name="setUp" is-config="true" duration-ms="7174" started-at="2020-06-05T22:25:28Z" finished-at="2020-06-05T22:25:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.rediff.com/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@1cb44a2f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="navigateToCreateAccountPageTest()[pri:5, instance:com.qa.rediff.testcases.RediffHomePageTest@3590fc5b]" name="navigateToCreateAccountPageTest" duration-ms="1088" started-at="2020-06-05T22:25:35Z" description="Verify the navigation to Create Account page" finished-at="2020-06-05T22:25:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToCreateAccountPageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.rediff.testcases.RediffHomePageTest@3590fc5b]" name="tearDown" is-config="true" duration-ms="1849" started-at="2020-06-05T22:25:36Z" finished-at="2020-06-05T22:25:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.rediff.testcases.RediffHomePageTest -->
+      <class name="com.qa.rediff.testcases.SignInPageTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.qa.rediff.testcases.SignInPageTest@33d512c1]" name="setUp" is-config="true" duration-ms="7503" started-at="2020-06-05T22:24:18Z" finished-at="2020-06-05T22:24:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.rediff.com/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@1cb44a2f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="signInTest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.rediff.testcases.SignInPageTest@33d512c1]" name="signInTest" duration-ms="532" started-at="2020-06-05T22:24:25Z" data-provider="dp" finished-at="2020-06-05T22:24:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[uma]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signInTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.rediff.testcases.SignInPageTest@33d512c1]" name="tearDown" is-config="true" duration-ms="1824" started-at="2020-06-05T22:24:26Z" finished-at="2020-06-05T22:24:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.qa.rediff.testcases.SignInPageTest@33d512c1]" name="setUp" is-config="true" duration-ms="7419" started-at="2020-06-05T22:24:27Z" finished-at="2020-06-05T22:24:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.rediff.com/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@1cb44a2f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="signInTest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.rediff.testcases.SignInPageTest@33d512c1]" name="signInTest" duration-ms="588" started-at="2020-06-05T22:24:35Z" data-provider="dp" finished-at="2020-06-05T22:24:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hari]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signInTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.rediff.testcases.SignInPageTest@33d512c1]" name="tearDown" is-config="true" duration-ms="2135" started-at="2020-06-05T22:24:35Z" finished-at="2020-06-05T22:24:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.qa.rediff.testcases.SignInPageTest@33d512c1]" name="setUp" is-config="true" duration-ms="7369" started-at="2020-06-05T22:24:38Z" finished-at="2020-06-05T22:24:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.rediff.com/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@1cb44a2f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="signInTest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.rediff.testcases.SignInPageTest@33d512c1]" name="signInTest" duration-ms="598" started-at="2020-06-05T22:24:45Z" data-provider="dp" finished-at="2020-06-05T22:24:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nila]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signInTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.rediff.testcases.SignInPageTest@33d512c1]" name="tearDown" is-config="true" duration-ms="2159" started-at="2020-06-05T22:24:46Z" finished-at="2020-06-05T22:24:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.rediff.testcases.SignInPageTest -->
+      <class name="com.qa.rediff.testcases.CreateAccountPageTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.qa.rediff.testcases.CreateAccountPageTest@397fbdb]" name="setUp" is-config="true" duration-ms="7283" started-at="2020-06-05T22:23:32Z" finished-at="2020-06-05T22:23:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.rediff.com/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@1cb44a2f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createAccountTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.rediff.testcases.CreateAccountPageTest@397fbdb]" name="createAccountTest" duration-ms="2155" started-at="2020-06-05T22:23:39Z" data-provider="dp" finished-at="2020-06-05T22:23:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[umadevi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test@123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test@123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[test1@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccountTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.rediff.testcases.CreateAccountPageTest@397fbdb]" name="tearDown" is-config="true" duration-ms="1877" started-at="2020-06-05T22:23:41Z" finished-at="2020-06-05T22:23:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.qa.rediff.testcases.CreateAccountPageTest@397fbdb]" name="setUp" is-config="true" duration-ms="7288" started-at="2020-06-05T22:23:43Z" finished-at="2020-06-05T22:23:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.rediff.com/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@1cb44a2f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createAccountTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.rediff.testcases.CreateAccountPageTest@397fbdb]" name="createAccountTest" duration-ms="2366" started-at="2020-06-05T22:23:50Z" data-provider="dp" finished-at="2020-06-05T22:23:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Aravind]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test12]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test@123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test@123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[test1@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccountTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.rediff.testcases.CreateAccountPageTest@397fbdb]" name="tearDown" is-config="true" duration-ms="1871" started-at="2020-06-05T22:23:53Z" finished-at="2020-06-05T22:23:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.qa.rediff.testcases.CreateAccountPageTest@397fbdb]" name="setUp" is-config="true" duration-ms="7370" started-at="2020-06-05T22:23:54Z" finished-at="2020-06-05T22:24:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.rediff.com/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@1cb44a2f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createAccountTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.rediff.testcases.CreateAccountPageTest@397fbdb]" name="createAccountTest" duration-ms="2205" started-at="2020-06-05T22:24:02Z" data-provider="dp" finished-at="2020-06-05T22:24:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nila]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test@123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test@123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[test1@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccountTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.rediff.testcases.CreateAccountPageTest@397fbdb]" name="tearDown" is-config="true" duration-ms="2119" started-at="2020-06-05T22:24:04Z" finished-at="2020-06-05T22:24:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.qa.rediff.testcases.CreateAccountPageTest@397fbdb]" name="setUp" is-config="true" duration-ms="7364" started-at="2020-06-05T22:24:06Z" finished-at="2020-06-05T22:24:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.rediff.com/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@1cb44a2f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createAccountTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.rediff.testcases.CreateAccountPageTest@397fbdb]" name="createAccountTest" duration-ms="2166" started-at="2020-06-05T22:24:14Z" data-provider="dp" finished-at="2020-06-05T22:24:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hari]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test1234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test@123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test@123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[test1@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccountTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.rediff.testcases.CreateAccountPageTest@397fbdb]" name="tearDown" is-config="true" duration-ms="1850" started-at="2020-06-05T22:24:16Z" finished-at="2020-06-05T22:24:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.rediff.testcases.CreateAccountPageTest -->
+    </test> <!-- FireFox Test -->
+  </suite> <!-- Suite -->
+</testng-results>

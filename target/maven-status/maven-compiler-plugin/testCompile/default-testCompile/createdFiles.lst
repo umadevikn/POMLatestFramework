@@ -1,0 +1,4 @@
+com\qa\rediff\basetest\BaseTest.class
+com\qa\rediff\testcases\CreateAccountPageTest.class
+com\qa\rediff\testcases\RediffHomePageTest.class
+com\qa\rediff\testcases\SignInPageTest.class

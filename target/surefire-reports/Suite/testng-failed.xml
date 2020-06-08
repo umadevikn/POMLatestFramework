@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.qa.rediff.listeners.AnnotationTransformer"/>
+    <listener class-name="com.qa.rediff.listeners.CustomTestListener"/>
+  </listeners>
+  <test name="Chrome Test(failed)">
+    <parameter name="url" value="https://www.rediff.com/"/>
+    <parameter name="Browser" value="chrome"/>
+    <classes>
+      <class name="com.qa.rediff.testcases.RediffHomePageTest">
+        <methods>
+          <include name="getTitleTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa.rediff.testcases.RediffHomePageTest -->
+    </classes>
+  </test> <!-- Chrome Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" >
+  
+  <listeners>
+   <listener class-name="com.qa.rediff.listeners.AnnotationTransformer"  />
+  <listener class-name="com.qa.rediff.listeners.CustomTestListener"  />
+  </listeners>
+  
+  
+  <test name="Chrome Test" >
+  <parameter name="Browser"  value="chrome" />
+  <parameter name="url"  value="https://www.rediff.com/"  />
+    <classes>
+      
+       <class name="com.qa.rediff.testcases.RediffHomePageTest"/> 
+     	<class name="com.qa.rediff.testcases.CreateAccountPageTest"/> 
+        <class name="com.qa.rediff.testcases.SignInPageTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+ <!--    <test name="FireFox Test" >
+  <parameter  name="Browser"  value="firefox" />
+  <parameter  name="url"      value="https://www.rediff.com/"  />
+    <classes>
+      
+      <class name="com.qa.rediff.testcases.RediffHomePageTest"/>
+       <class name="com.qa.rediff.testcases.CreateAccountPageTest"/>
+        <class name="com.qa.rediff.testcases.SignInPageTest"/>
+    </classes>
+  </test>  -->
+  
+   <!-- Test --> 
+  
+   
+  
+</suite> <!-- Suite -->
