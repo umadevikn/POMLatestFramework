@@ -1,6 +1,9 @@
 package com.qa.rediff.base;
 
 import org.openqa.selenium.WebDriver;
+
+//Added comment for BasePage
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
